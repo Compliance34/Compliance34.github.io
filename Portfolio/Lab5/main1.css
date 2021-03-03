@@ -46,7 +46,9 @@ img{
     .flex-gallery{
         margin:0 -6px;
         display: flex;
+        flex-direction: column; /* flex-direction + flex-wrap == flex-flow: column wrap;*/
         flex-wrap: wrap;
+        align-items: center;
     }
 
     .flex-gallery div{
@@ -63,7 +65,7 @@ img{
     
     header, main, footer{
         padding: 16px 128px;
-        /*flex-wrap: wrap;*/
+        flex-wrap: wrap;
     } 
     
     .flex-gallery div{
